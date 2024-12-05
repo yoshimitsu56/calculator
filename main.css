@@ -1,0 +1,54 @@
+.main{
+  width: 200px;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+}
+.display{
+  text-align: right;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color:white;
+}
+.button{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  width: 50px;
+  text-align: center;
+}
+.buttonZero,.symbol,.symbolP{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  width: 50px;
+  text-align: center;
+}
+.largeButton{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  width: 100px;
+  text-align: center;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+.middle1{
+  display: flex;
+  justify-content: space-between;
+}
+.middle2{
+  display: flex;
+  justify-content: space-between;
+}
+.under{
+  display: flex;
+  justify-content: space-between;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+}
