@@ -76,14 +76,11 @@ point.addEventListener("click",function(){
   document.getElementById("displayNum").textContent = total;
 });
 
-
-
-
 const equal = document.getElementById("equal");
 equal.addEventListener("click",function(){
   console.log(equal.textContent);
-  console.log(eval(total));
   total = eval(total);
+  total = Math.round(total*1000000000000000)/1000000000000000;
   document.getElementById("displayNum").textContent = total;
   state = "afterEqual";
 });
@@ -94,5 +91,5 @@ AC.addEventListener("click",function(){
   total = 0;
   document.getElementById("displayNum").textContent = total;
   state = "start";
+  style = "integer";
 });
-
